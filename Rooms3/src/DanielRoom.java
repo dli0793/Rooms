@@ -12,6 +12,9 @@ public class DanielRoom extends Room
 		x.setxLoc(this.xLoc);
 		x.setyLoc(this.yLoc);
 		System.out.println("It is I Tack. You have to get through me first. Beat me in a game of Tic Tac Toe.");
+		System.out.println("This will be how the play board will look like. I will be X and you will be O. Enter where you want to place your letter in the form row,column. If you win I shall let you pass. If I win you shall go back to the beginning with one less life.");
+		printBoard();
+		
 		Runner.gameOff();
 		
 	}
@@ -36,5 +39,13 @@ public class DanielRoom extends Room
 	        
 	    }
 	}
+	
+	
+	private boolean checkWin()
+	{
+		
+	}
+	
+	
 	
 }
